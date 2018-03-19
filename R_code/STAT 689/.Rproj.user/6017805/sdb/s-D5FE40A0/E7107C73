@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "load(\"~/Dropbox/STAT 689 Project/Data/STAT689_COAD.Rda\")\nmiRNA = COAD$miRNA\nCancer_type = COAD$subtype\ncompleteID = (!is.na(Cancer_type)) & \n  (!apply(miRNA, 1, function(o) sum(is.na(o)))) \n",
+    "created" : 1520120309695.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1791202216",
+    "id" : "E7107C73",
+    "lastKnownWriteTime" : 1520198930,
+    "last_content_update" : 1520199000097,
+    "path" : "~/Documents/博士教学/博三下/TCGA-COAD/R_code/STAT 689/DE_ttest.R",
+    "project_path" : "DE_ttest.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

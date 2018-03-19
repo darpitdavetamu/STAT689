@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/博士教学/博三下/TCGA-COAD/Data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
